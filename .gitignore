@@ -1,0 +1,11 @@
+# Build files and folders
+*.pyc
+*.lock
+.venv/
+
+# Development files and folders
+.idea/
+
+# Project files and folders
+conf/
+logs/
