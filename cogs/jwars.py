@@ -23,7 +23,7 @@ class JWars:
         try:
             best_match = next(fuzzywuzzy.process.extractWithoutOrder(name, self.char_info.keys(), scorer=fuzzywuzzy.fuzz.token_sort_ratio, score_cutoff=50))
         except StopIteration:
-            return await ctx.send(f'Could not find character "{name}".')
+            return await ctx.send(f'Personnage "{name}" introuvable.')
 
         char_info = self.char_info.get(best_match[0])
         stats = '\n'.join(f'**{stat["name"]}: {stat["value"]}**' if stat["highlight"] else f'{stat["name"]}: {stat["value"]}' for stat in char_info['stats'])
