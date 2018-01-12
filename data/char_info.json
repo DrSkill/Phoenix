@@ -1,0 +1,21 @@
+{
+  "adele": {
+    "name": "Adèle l'arlequin",
+    "description": "Une combattante de première ligne, maîtresse des attaques physiques massives. Effectue une série de coups qui cause d'énormes dégâts.",
+    "stats": [
+      {"highlight": true, "name": "Force", "value": 14977},
+      {"highlight": true, "name": "Critique physique", "value": 10345},
+      {"highlight": true, "name": "Points de vie", "value": 41948},
+      {"highlight": true, "name": "Armure", "value": 7155},
+      {"highlight": false, "name": "Résistance", "value": 1937},
+      {"highlight": false, "name": "Pénétration d'armure", "value": 1590},
+      {"highlight": false, "name": "Agilité", "value": 5380},
+      {"highlight": false, "name": "Précision", "value": 938},
+      {"highlight": false, "name": "Vol de vie", "value": 14061}
+    ],
+    "matchups": {
+      "wins": ["lishet", "meego"],
+      "loss": ["hanna", "ronald"]
+    }
+  }
+}

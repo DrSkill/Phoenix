@@ -8,6 +8,7 @@ name = "pypi"
 [packages]
 
 "discord.py" = {git = "https://github.com/PapyrusThePlant/discord.py.git", ref = "rewrite", extras = ["voice"]}
+fuzzywuzzy = "*"
 psutil = "*"
 
 
