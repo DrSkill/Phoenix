@@ -15,7 +15,11 @@ class JWars:
     def __init__(self, bot):
         with open(paths.CHAR_INFO_DATA, encoding='utf-8') as fp:
             self.char_info = json.load(fp)
-        self.emojis = {e.name.lower(): e for e in bot.emojis}
+        self.bot = bot
+        self.emojis = None
+
+    async def on_ready(self):
+        self.emojis = {e.name.lower(): e for e in self.bot.emojis}
 
     @commands.command()
     async def info(self, ctx, *, name):
