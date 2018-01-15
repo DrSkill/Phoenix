@@ -2,6 +2,8 @@
   "adele": {
     "name": "Adèle l'arlequin",
     "description": "Une combattante de première ligne, maîtresse des attaques physiques massives. Effectue une série de coups qui cause d'énormes dégâts.",
+    "position": "Avant",
+    "index": 6,
     "stats": [
       {"highlight": true, "name": "Force", "value": 14977},
       {"highlight": true, "name": "Critique physique", "value": 10345},
