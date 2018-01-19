@@ -19,5 +19,26 @@
       "wins": ["lishet", "meego"],
       "loss": ["hanna", "ronald"]
     }
+  },
+  "papyrus": {
+    "name": "Papyrus le FDP",
+    "description": "Un gros FDP qui avale des zboubs comme si c'était des knackis ballz.",
+    "position": "Toujours par derrière",
+    "index": "oui",
+    "stats": [
+      {"highlight": true, "name": "Force", "value": 2},
+      {"highlight": true, "name": "Critique physique", "value": 1},
+      {"highlight": true, "name": "Points de vie", "value": 3},
+      {"highlight": true, "name": "Armure", "value": 0},
+      {"highlight": false, "name": "Résistance", "value": 0},
+      {"highlight": false, "name": "Pénétration d'armure", "value": 99999},
+      {"highlight": false, "name": "Agilité", "value": 0},
+      {"highlight": false, "name": "Précision", "value": 0},
+      {"highlight": false, "name": "Vol de vie", "value": 3}
+    ],
+    "matchups": {
+      "wins": ["mitrael"],
+      "loss": ["mitrael"]
+    }
   }
 }
