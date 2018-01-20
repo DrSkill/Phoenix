@@ -20,25 +20,25 @@
       "loss": ["hanna", "ronald"]
     }
   },
-  "papyrus": {
-    "name": "Papyrus le FDP",
-    "description": "Un gros FDP qui avale des zboubs comme si c'était des knackis ballz.",
-    "position": "Toujours par derrière",
-    "index": "oui",
+  "lishet": {
+    "name": "Lishet la démone",
+    "description": "Une guerrière de première ligne qui peut attirer l'adversaire de son côté. Elle inflige des dégâts physiques, mais utilise aussi de super attaques magiques qui enflamment ses ennemis.",
+    "position": "Avant",
+    "index": 29,
     "stats": [
-      {"highlight": true, "name": "Force", "value": 2},
-      {"highlight": true, "name": "Critique physique", "value": 1},
-      {"highlight": true, "name": "Points de vie", "value": 3},
-      {"highlight": true, "name": "Armure", "value": 0},
-      {"highlight": false, "name": "Résistance", "value": 0},
-      {"highlight": false, "name": "Pénétration d'armure", "value": 99999},
-      {"highlight": false, "name": "Agilité", "value": 0},
-      {"highlight": false, "name": "Précision", "value": 0},
-      {"highlight": false, "name": "Vol de vie", "value": 3}
+      {"highlight": true, "name": "Force", "value": 15187},
+	  {"highlight": true, "name": "Puissance de sort", "value": 15210},
+      {"highlight": true, "name": "Critique physique", "value": 1837},
+	  {"highlight": true, "name": "Critique magique", "value": 959},
+      {"highlight": true, "name": "Points de vie", "value": 39135},
+      {"highlight": true, "name": "Armure", "value": 7782},
+      {"highlight": false, "name": "Résistance", "value": 36830},
+      {"highlight": false, "name": "Agilité", "value": 4887},
+      {"highlight": false, "name": "Vol de vie", "value": 5419}
     ],
     "matchups": {
-      "wins": ["mitrael"],
-      "loss": ["mitrael"]
+      "wins": ["yordin"],
+      "loss": ["adele"]
     }
   }
 }
