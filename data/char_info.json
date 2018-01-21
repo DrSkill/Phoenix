@@ -17,7 +17,7 @@
     ],
     "matchups": {
       "wins": ["lishet", "meego"],
-      "loss": ["hanna", "ronald"]
+      "loss": ["hanna", "ronald", "rogvor"]
     }
   },
   "lishet": {
@@ -28,11 +28,11 @@
     "stats": [
       {"highlight": true, "name": "Force", "value": 15187},
 	  {"highlight": true, "name": "Puissance de sort", "value": 15210},
-      {"highlight": true, "name": "Critique physique", "value": 1837},
-	  {"highlight": true, "name": "Critique magique", "value": 959},
-      {"highlight": true, "name": "Points de vie", "value": 39135},
-      {"highlight": true, "name": "Armure", "value": 7782},
-      {"highlight": false, "name": "Résistance", "value": 36830},
+	  {"highlight": true, "name": "Points de vie", "value": 39135},
+	  {"highlight": true, "name": "Résistance", "value": 36830},
+      {"highlight": false, "name": "Critique physique", "value": 1837},
+	  {"highlight": false, "name": "Critique magique", "value": 959},
+      {"highlight": false, "name": "Armure", "value": 7782},
       {"highlight": false, "name": "Agilité", "value": 4887},
       {"highlight": false, "name": "Vol de vie", "value": 5419}
     ],
